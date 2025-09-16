@@ -1,5 +1,12 @@
 function isSameType(value1, value2) {
-  //your js code here
+ let flagcheck = false;
+
+	if(value1 == value2){
+		flagcheck = true;
+	} else {
+		flagcheck = false;
+	}
+	return flagcheck;
 }
 
 // do not change the code below.
